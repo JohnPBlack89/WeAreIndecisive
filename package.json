@@ -1,0 +1,9 @@
+{
+  "name": "we-are-indecisive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node dev.mjs", "start": "node server/index.mjs", "test": "node --test" },
+  "engines": { "node": ">=18.18" },
+  "dependencies": { "mongodb": "^6.20.0" }
+}

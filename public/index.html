@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f2">
+  <meta name="description" content="Less back and forth. More doing. Collect ideas, rank your favorites, and make a decision together.">
+  <title>We Are Indecisive — Decide together</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./config.js"></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./"><span class="brand-icon">↗</span><span>we are<br><strong>indecisive.</strong></span></a><div class="header-right"><span class="mode" id="mode">Local demo</span><button class="button dark small" id="new-decision">New decision <span>+</span></button></div></header>
+  <main id="app"></main>
+  <footer><span>A little less “I don’t know.” A little more “let’s go.”</span><span>Made for making up our minds. <span class="footer-star">✳</span></span></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="create-dialog"><form id="create-form"><div class="dialog-top"><span class="eyebrow">GET EVERYONE ON THE SAME PAGE</span><button type="button" class="icon-button" id="close-dialog" aria-label="Close">×</button></div><h2>What are we deciding?</h2><label>Decision title<input name="title" maxlength="120" required placeholder="Where should we go this weekend?"></label><label>A little context <span class="muted">(optional)</span><textarea name="description" maxlength="500" placeholder="The who, what, when, and anything else to consider."></textarea></label><button class="button primary" type="submit">Create decision <span>↗</span></button><p class="muted" id="create-note"></p></form></dialog>
+</body>
+</html>
