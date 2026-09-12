@@ -79,3 +79,7 @@ Tests cover vote transfers, exhausted ballots, ties, partial rankings, phase per
 This is an anonymous, link-based app for informal groups. Participant tokens and host controls are saved in the browser. Clearing storage loses host access and creates a new participant identity; another browser can vote separately. There are no verified accounts, host recovery, moderation tools, or protection against determined ballot stuffing. Decision links grant access to the room and final anonymized rankings. Keep host tokens private. API requests have a basic per-connection-IP limit; configure deployment-level limits for internet-scale use. Decisions currently have no automatic expiry or deletion UI. Choice and voter limits are 50 and 1,000 per decision.
 
 Fonts use Google Fonts with local sans-serif fallbacks. The frontend has no build step or runtime package dependencies. A live MongoDB deployment and host credentials are needed to verify cross-device operation and publish the app.
+
+### To-Do
+Re-Open old ballot
+Edit Choices 
